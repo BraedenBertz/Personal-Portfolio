@@ -61,7 +61,7 @@ function ControlledCarousel(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <a href={item.src} without rel="noopener noreferrer" target="_blank">
+        <a href={item.src} without="true" rel="noopener noreferrer" target="_blank">
           <Document file={item.src} onLoadSuccess={onDocumentLoadSuccess} className='flex flex-row justify-center'>
             <Page pageNumber={pageNumber} />
           </Document>

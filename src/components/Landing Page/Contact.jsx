@@ -21,7 +21,7 @@ function Contact() {
                     <form
                         action="https://getform.io/f/19ecc392-ab8a-40a1-bd7e-70720d237ab5"
                         method='POST'
-                        className='flex flex-col w-full md:w-7/12'
+                        className='flex flex-col w-7/12'
                         onSubmit={isValidEmail}
                     >
                         <input

@@ -9,7 +9,7 @@ import ControlledCarousel from './components/Landing Page/ControlledCarousel'
 
 export default function App() {
 	return (
-		<div className="bg-white dark:bg-black text-stone-900 dark:text-stone-300 min-h-screen font-inter w-full">
+		<div className="bg-white dark:bg-black text-stone-900 dark:text-stone-300 min-h-screen overflow-hidden font-inter">
 			<NavMenu/>
 			<div className="mx-auto">
 				<Intro />
